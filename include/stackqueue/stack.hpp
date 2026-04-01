@@ -9,7 +9,7 @@ namespace dsac::stackqueue {
 template <typename T, typename Container=dsac::array::Vector<T>>
 class stack {
     private:
-        Container data;
+        Container data; 
 
     public:
         /// return the number of elements currently in the stack
