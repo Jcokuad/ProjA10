@@ -8,12 +8,12 @@ int main() {
     //Problem 1:
     std::string str1 = "abbaca";
     std::cout << "Input: " << str1 << '\n';
-    std::cout << "Output: " << remove_duplicates(str1) << '\n\n';
+    std::cout << "Output: " << remove_duplicates(str1) << "\n\n";
 
     //Problem 2:
     std::string str2 = "a<bc<d";
     std::cout << "Input: " << str2 << '\n';
-    std::cout << "Output: " << clean_backspace_string(str2) << '\n\n';
+    std::cout << "Output: " << clean_backspace_string(str2) << "\n\n";
 
     //Problem 3:
     dsac::stackqueue::stack<int> st;
@@ -28,6 +28,6 @@ int main() {
     int x = 3;
 
     std::cout << "Input: " << "st = {1, 2, 3, 4, 5}; q={}; x=3" << '\n';
-    std::cout << "Output: " << (stack_contains(st, qu, x) ? "false" : "true") << '\n\n';
+    std::cout << "Output: " << (stack_contains(st, qu, x) ? "true" : "false") << "\n\n";
 }
 
