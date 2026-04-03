@@ -29,7 +29,7 @@ std::string remove_duplicates(std::string input) {
     }
 
     std::string output; // reverse string to correct order in output
-    for (int i = reverse.size() - 1; i >= 0; i--) {
+    for (int i = static_cast<int>(reverse.size()) - 1; i >= 0; i--) {
         output += reverse[i];
     }
 
@@ -56,7 +56,7 @@ std::string clean_backspace_string(std::string input) {
     }
 
     std::string output; // adds reverse string to output to correct the order
-    for (int i = reverse.size() - 1; i >= 0; i--) {
+    for (int i = static_cast<int>(reverse.size()) - 1; i >= 0; i--) {
         output += reverse[i];
     }
 

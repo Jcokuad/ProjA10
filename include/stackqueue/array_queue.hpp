@@ -65,7 +65,7 @@ class ArrayQueue {
             if (size() == capacity) {
                 throw std::overflow_error("Queue overflow");
             }
-            int avail{(f + sz) % capacity} // next available index
+            int avail{(f + sz) % capacity}; // next available index
             data[avail] = elem;
             sz++;
         }
